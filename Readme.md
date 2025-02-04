@@ -2,7 +2,7 @@
 
 * Студент: [Наталия Бахтинова](https://up.htmlacademy.ru/htmlcss-individual/2/user/2616273).
 * Наставник:[Анна Лисененкова](https://htmlacademy.ru/profile/ankhena).
-
+* Сайт:[Мой проект Sedona](https://bantalia.github.io/2616273-sedona-2/)
 ---
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>
