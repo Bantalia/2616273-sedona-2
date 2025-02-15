@@ -3,13 +3,15 @@
 
   <head>
     <meta charset="utf-8">
+    <link href="styles/styles.css" rel="stylesheet">
     <title>HTML Academy: Седона</title>
   </head>
 
   <body>
     <header class="page-header" data-test="page-header">
       <a class="logo" href="index.html" aria-current="page">
-        <img class="logo-image" src="#" alt="Логотип города Седона">
+        <img class="logo-image" src="images/lodo/logo.svg" width="140" height="70"
+          alt="Логотип города Cедона. Изображено:коричневые горы,голубое небо,белые облака.">
       </a>
       <nav class="navigation">
         <ul class="navigation-list">
@@ -31,8 +33,8 @@
           </li>
           <li class="navigation-user-item">
             <a class="navigation-link" href="#">
-              <span class="visually-hidden">В избранном
-              </span>В избранном 12
+              <span class="visually-hidden">Гостиниц в избранном 12
+              </span>
             </a>
           </li>
           <li class="navigation-user-item">
@@ -42,7 +44,7 @@
       </nav>
     </header>
 
-    <main class="main-inner" data-test="main-inner">
+    <main class="main-internal" data-test="main-internal">
       <section class="filter">
         <ul class="breadcrumbs-list">
           <li class="breadcrumbs-item">
@@ -131,55 +133,59 @@
         <ul class="Hotel-list">
           <li class="Hotel-card">
             <a class="Hotel-card-link" href="#">
-              <img class="Hotel-card-image" src="#" alt=""></a>
+              <img class="Hotel-card-image" src="images/catalog/amararesort.jpg" width="300" height="212"
+                alt="Изображено темно-синее звёздное небо, проглядывающее через овальное ущелье гор."></a>
             <a class="Hotel-card-link" href="#" tabindex="-1">
               <h4 class="Hotel-card-title">Amara Resort & Spa</h4>
             </a>
             <p class="Hotel-card-type">Гостиница</p>
-            <b class="Hotel-card-price">От 4000 ₽</b>
-            <a class="Hotel-card-button button" href="#" >подробнее</a>
+            <p class="Hotel-card-price">От 4000 ₽</p>
+            <a class="Hotel-card-button button" href="#">подробнее</a>
             <a class="Hotel-card-button button" href="#">в избранное</a>
             <span class="visually-hidden">4звезды из 5</span>
-            <b class="Hotel-card-price">Рейтинг: 8,5</b>
+            <p class="Hotel-card-price">Рейтинг: 8,5</p>
           </li>
           <li class="Hotel-card">
             <a class="Hotel-card-link" href="#">
-              <img class="Hotel-card-image" src="#" alt=""></a>
+              <img class="Hotel-card-image" src="images/catalog/villasatpoco.jpg" width="300" height="212"
+                alt="Изображен-горный хребет красных скал в окружении хвойной равнины на фоне небо в серо-синих тонах, с радугой."></a>
             <a class="Hotel-card-link" href="#" tabindex="-1">
               <h4 class="Hotel-card-title">Villas at Poco Diablo</h4>
             </a>
             <p class="Hotel-card-type">Гостиница</p>
-            <b class="Hotel-card-price">От 5000 ₽</b>
+            <p class="Hotel-card-price">От 5000 ₽</p>
             <a class="Hotel-card-button button" href="#">подробнее</a>
             <a class="Hotel-card-button button" href="#">в избранное</a>
             <span class="visually-hidden">4 звезды из 5</span>
-            <b class="Hotel-card-price">Рейтинг: 9,2</b>
+            <p class="Hotel-card-price">Рейтинг: 9,2</p>
           </li>
           <li class="Hotel-card">
             <a class="Hotel-card-link" href="#">
-              <img class="Hotel-card-image" src="#" alt=""></a>
+              <img class="Hotel-card-image" src="images/catalog/desertquailinn.jpg" width="300" height="212"
+                alt="Изображен-горный хребет красных скал на фоне ясного неба в окружении зеленой равнины."></a>
             <a class="Hotel-card-link" href="#" tabindex="-1">
               <h4 class="Hotel-card-title">Desert Quail Inn</h4>
             </a>
             <p class="Hotel-card-type">Гостиница</p>
-            <b class="Hotel-card-price">От 2500 ₽</b>
+            <p class="Hotel-card-price">От 2500 ₽</p>
             <a class="Hotel-card-button button" href="#">подробнее</a>
             <a class="Hotel-card-button button" href="#">в избранное</a>
             <span class="visually-hidden">3 звезды из 5 </span>
-            <b class="Hotel-card-price">Рейтинг: 6,9</b>
+            <p class="Hotel-card-price">Рейтинг: 6,9</p>
           </li>
           <li class="Hotel-card">
             <a class="Hotel-card-link" href="#">
-              <img class="Hotel-card-image" src="#" alt=""></a>
+              <img class="Hotel-card-image" src="images/catalog/greenreeinn.jpg" width="300" height="212"
+                alt="Изображена возвышенность красно-коричневых скал на фоне ночного, звездного небом."></a>
             <a class="Hotel-card-link" href="#" tabindex="-1">
               <h4 class="Hotel-card-title">GreenTree Inn</h4>
             </a>
             <p class="Hotel-card-type">Гостиница</p>
-            <b class="Hotel-card-price">От 1500 ₽</b>
+            <p class="Hotel-card-price">От 1500 ₽</p>
             <a class="Hotel-card-button button" href="#">подробнее</a>
             <a class="Hotel-card-button button" href="#">в избранное</a>
-            <span class="visually-hidden">2 зыезды из 5</span>
-            <b class="Hotel-card-price">Рейтинг: 5</b>
+            <p class="Hotel-card-">2 звезды из 5</p>
+            <p class="Hotel-card-price">Рейтинг: 5</p>
           </li>
         </ul>
         <ul class="pagination">
@@ -215,41 +221,40 @@
       </section>
       <section class="subscribe" data-test="subscribe">
         <h2 class="subscribe-header">Подпишитесь на рассылку</h2>
-          <p class="subscribe-title">Только полезная информация и никакого спама, честное бойскаутское!</p>
-          <form class="subscribe-form" action="http://echo.htmlacademy.ru" method="post">
-            <label for="subscribe-email">Укажите Ваш email</label>
-            <input type="email" id="subscribe-email" placeholder="Ваш e-mail">
-            <button class="subscribe-button" type="submit">Подписаться</button>
-          </form>
+        <p class="subscribe-title">Только полезная информация и никакого спама, честное бойскаутское!</p>
+        <form class="subscribe-form" action="http://echo.htmlacademy.ru" method="post">
+          <label for="subscribe-email">Укажите Ваш email</label>
+          <input type="email" id="subscribe-email" placeholder="Ваш e-mail">
+          <button class="subscribe-button" type="submit">Подписаться</button>
+        </form>
       </section>
-      </main>
+    </main>
 
-      <footer class="page-footer" data-test="main-footer">
-        <section class="contact">
-          <ul class="contact-list">
-            <li class="contact-item">
-              <a class="-contact-button" href="https://vk.com/htmlacademy">
-                <span class="visually-hidden">Vkontakte</span>
-              </a>
-            </li>
-            <li class="contact-itemm">
-              <a class="button" href="https://t.me/htmlacademy">
-                <span class="visually-hidden">Telegram</span>
-              </a>
-            </li>
-            <li class="contact-item">
-              <a class="contact-button" href="https://www.youtube.com/user/htmlacademyru">
-                <span class="visually-hidden">Youtube</span>
-              </a>
-            </li>
-          </ul>
-          <a class="contact-phon" href="tel:88128121212"> +7 (812) 812-12-12</a>
-          <a class="contact-website-htmlacademy" href="https://htmlacademy.ru">
-            <span class="visually-hidden"></span>
-            <img class="contact-logo-htmlacademy-image" src="#" alt="Логотип html academy">
-          </a>
-        </section>
-      </footer>
+    <footer class="page-footer" data-test="main-footer">
+      <section class="contact">
+        <ul class="contact-list">
+          <li class="contact-item">
+            <a class="-contact-button" href="https://vk.com/htmlacademy">
+              <span class="visually-hidden">vkontakte</span>
+            </a>
+          </li>
+          <li class="contact-itemm">
+            <a class="button" href="https://t.me/htmlacademy">
+              <span class="visually-hidden">telegram</span>
+            </a>
+          </li>
+          <li class="contact-item">
+            <a class="contact-button" href="https://www.youtube.com/user/htmlacademyru">
+              <span class="visually-hidden">youtube</span>
+            </a>
+          </li>
+        </ul>
+        <a class="contact-phon" href="tel:88128121212"> +7 (812) 812-12-12</a>
+        <a class="contact-website-htmlacademy" href="https://htmlacademy.ru">
+          <span class="visually-hidden"">" Сайт разработчика html academy"</span>
+        </a>
+      </section>
+    </footer>
 
   </body>
 
