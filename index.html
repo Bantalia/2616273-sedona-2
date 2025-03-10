@@ -3,18 +3,20 @@
 
   <head>
     <meta charset="utf-8">
-        <link rel="stylesheet" href="styles/styles.css">
-    <title>HTML Academy: Седона</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/outline.css">
+    <link rel="stylesheet" href="styles/outline-settings.css">
+    <title>HTML Academy:Седона</title>
   </head>
 
   <body>
     <div class="container">
       <header class="page-header" data-test="page-header">
-        <a class="logo" href="index.html" aria-current="page">
-          <img class="logo-image" src="images/logo.svg" width="140" height="70"
-            alt="Коричневые горы на фоне голубого небо с белыми облаками.">
-        </a>
         <nav class="navigation">
+          <a class="logo" href="index.html" aria-current="page">
+            <img class="logo-image" src="images/logo.svg" width="140" height="70"
+              alt="Коричневые горы на фоне голубого небо с белыми облаками.">
+          </a>
           <ul class="navigation-list">
             <li class="navigation-item">
               <a class="navigation-link" href="index.html">Главная</a>
@@ -93,7 +95,7 @@
           </ul>
         </section>
         <section class="infrastructure" data-test="infrastructure">
-          <h2 class="visually-hiddenparental">Инфраструктура в городе Седона</h2>
+          <h2 class="visually-hidden">Инфраструктура в городе Седона</h2>
           <p class="infrastructure-basic">Приезжайте в Седону отдохнуть в комфорте и уюте!</p>
           <p class="infrastructure-text">Опытный персонал и качественное обслуживание!</p>
           <ul class="infrastructure-list">
@@ -101,7 +103,7 @@
               <h3 class="infrastructure-title">Жильё</h3>
               <p class="infrastructure-description">Рекомендуем пожитьв настоящем мотеле, всё как в кино!</p>
             </li>
-            <li class="infrastructure-item">
+            <li class="food-infrastructure-item">
               <h3 class="infrastructure-title">Еда</h3>
               <p class="infrastructure-description">Всегда заказывайте топовый фирменный бургер, вы не
                 разочаруетесь! </p>
@@ -127,9 +129,10 @@
           <div class="subscribe-page">
             <h2 class="subscribe-header">Подпишитесь на рассылку</h2>
             <p class="subscribe-text">Только полезная информация и никакого спама, честное бойскаутское!</p>
-            <form class="subscribe-form"  action="https://echo.htmlacademy.ru/" method="post">
-              <label for="subscribe-email">Укажите Ваш email</label>
-              <input type="email" name="subscribe-email" id="subscribe-email" aria-label="Ваш e-mail" placeholder="Ваш e-mail">
+            <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
+              <label for="subscribe-email"><span class="visually-hidden">Укажите Ваш email</span></label>
+              <input type="email" name="subscribe-email" id="subscribe-email" aria-label="Ваш e-mail"
+                placeholder="Ваш e-mail">
               <button class="subscribe-button" type="submit">Подписаться</button>
             </form>
           </div>
@@ -151,7 +154,7 @@
               </a>
             </li>
             <li class="contact-item">
-              <a class="youtub" href="https://www.youtube.com/user/htmlacademyru">
+              <a class="youtube" href="https://www.youtube.com/user/htmlacademyru">
                 <span class="visually-hidden">youtube</span>
               </a>
             </li>
